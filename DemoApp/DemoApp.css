@@ -1,0 +1,65 @@
+.THIS.container>header {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20%;
+}
+
+.THIS.container>.body {
+  padding: 10px;
+}
+
+.THIS.container .grid {
+  height: 250px;
+}
+
+.THIS .slds-size--8-of-12 {
+  width: 66%;
+}
+
+.THIS .slds-size--4-of-12 {
+  width: 33%;
+}
+
+.THIS .card-checkbox .slds-form-element__label,
+.THIS.container>header .form-element__label {
+  display: none;
+}
+
+.THIS .side-panel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.THIS .side-panel .header {
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.THIS .side-panel .header > h2 {
+  display: inline-block;
+}
+
+.THIS .side-panel .footer {
+  border-top: 1px solid #ddd;
+}
+
+.THIS .side-panel .icon-filter-small svg {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+}
+
+.THIS .slds-scrollable::-webkit-scrollbar-track,
+.THIS .slds-scrollable--y::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.THIS .slds-scrollable::-webkit-scrollbar-thumb,
+.THIS .slds-scrollable--y::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.THIS .slds-scrollable:hover::-webkit-scrollbar-thumb,
+.THIS .slds-scrollable--y:hover::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.5);
+}

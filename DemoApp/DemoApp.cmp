@@ -1,0 +1,14 @@
+<aura:component>
+  <!-- events definition area -->
+  <aura:handler event="c:ActionResponseSuccessAppEvent" action="{!c.onSuccess}"/>
+  <aura:handler event="c:ActionResponseErrorAppEvent" action="{!c.onError}"/>
+  <aura:registerEvent name="EventA" type="c:ActionRequestAppEvent"/>
+  <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+  <!-- UI definition -->
+  <div>
+    <c:ActionRequestProxy/>
+    <c:ComponentA/>
+    <c:ComponentB/>
+    <c:ComponentC/>
+  </div>
+</aura:component>
