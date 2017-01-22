@@ -1,0 +1,5 @@
+<aura:component Controller="GatewayController">
+  <aura:registerEvent name="success" type="c:ActionResponseSuccessAppEvent"/>
+  <aura:registerEvent name="error" type="c:ActionResponseErrorAppEvent"/>
+  <aura:handler event="c:ActionRequestAppEvent" action="{!c.onRequest}"/>
+</aura:component>

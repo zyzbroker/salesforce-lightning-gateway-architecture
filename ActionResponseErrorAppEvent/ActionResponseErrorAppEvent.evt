@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Action Error Response App Event">
+  <aura:attribute name="id" type="String" description="event identifier" default=""/>
+  <aura:attribute name="error" type="String" description="action response return error" default=""/>
+</aura:event>
