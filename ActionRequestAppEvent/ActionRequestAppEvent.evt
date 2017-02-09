@@ -1,6 +1,0 @@
-<aura:event type="APPLICATION" description="Action Request App Event">
-  <aura:attribute name="id" type="String" description="event identifier" default=""/>
-  <aura:attribute name="action" type="String" description="apex controller aura method name" default=""/>
-  <aura:attribute name="parameters" type="Map" description="aura method arguments" default=""/>
-  <aura:attribute name="background" type="Boolean" description="set request as background call or not" default="false"/>
-</aura:event>
