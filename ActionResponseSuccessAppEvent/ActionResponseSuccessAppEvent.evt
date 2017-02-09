@@ -1,4 +1,0 @@
-<aura:event type="APPLICATION" description="Action Success Response App Event">
-  <aura:attribute name="id" type="String" description="event identifier" default="none"/>
-  <aura:attribute name="value" type="Object" description="action response return value"/>
-</aura:event>
